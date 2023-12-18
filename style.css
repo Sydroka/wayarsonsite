@@ -1,0 +1,344 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: serif;
+}
+
+h1 {
+  color: rgb(9, 23, 48);
+  font-size: 77px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 50px;
+  word-spacing: 50px;
+  -webkit-text-stroke-width: medium;
+}
+
+nav {
+  color: rgb(62, 153, 74);
+  font-size: larger;
+  word-spacing: 35px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+  font-size: 43px;
+  background-color: rgba(0, 255, 255, 0.242);
+}
+
+.try {
+  margin-left: 177px;
+  margin-top: 77px;
+  margin-bottom: 57px;
+  background-color: rgba(0, 255, 255, 0.242);
+  border-radius: 23%;
+  display: block;
+}
+
+.tryag {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 255, 255, 0.242);
+  border-radius: 23%;
+  width: 70%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  /* You can also use max-width for responsiveness */
+  max-width: 100%; /* Limits the image width to its container */
+  display: block; /* Ensures proper rendering as a block-level element */
+  margin: auto; /* Center the image within its container */
+}
+
+/*
+.container {
+  background-color: rgba(0, 255, 255, 0.242);
+  margin-left: 87px;
+  margin-right: 77px;
+  height: 350px;
+  border-radius: 40%;
+}
+.container-two {
+  background-color: rgba(0, 255, 255, 0.242);
+  margin-left: 87px;
+  margin-right: 77px;
+  border-radius: 40%;
+  height: 470px;
+}
+
+.paragraph-container {
+  width: 100%;
+  margin-top: -30px;
+}
+
+.left-paragraph {
+  float: left;
+  width: 40%;
+}
+
+.right-paragraph {
+  float: right;
+  width: 60%;
+}
+
+.left-para {
+  float: left;
+  width: 40%;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+}
+
+.right-para {
+  float: right;
+  width: 60%;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+}
+.paragraph-container-two {
+  width: 100%;
+}
+
+.l-paragraph {
+  float: left;
+  width: 40%;
+  text-decoration: underline;
+}
+
+.r-paragraph {
+  float: right;
+  width: 60%;
+  text-decoration: underline;
+}
+.l-para {
+  float: left;
+  width: 40%;
+}
+
+.r-para {
+  float: right;
+  width: 60%;
+}
+
+.l-par {
+  float: left;
+  width: 40%;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+  margin-left: 40px;
+}
+
+.r-par {
+  float: right;
+  width: 60%;
+  font-size: 35px;
+  text-align: center;
+  -webkit-text-stroke-width: medium;
+  margin-top: -50px;
+}
+
+h2 {
+  font-size: 57px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  -webkit-text-stroke-width: medium;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 57px;
+  text-align: center;
+  margin-bottom: 3px;
+  -webkit-text-stroke-width: medium;
+}
+
+h4 {
+  font-size: 23px;
+  text-align: center;
+  margin-right: 100px;
+  margin-top: 350px;
+}
+
+p {
+  font-size: 67px;
+  line-height: 0.1;
+  text-align: center;
+  color: rgb(10, 24, 48);
+  margin-bottom: 50px;
+}
+
+p.left-paragraph {
+  text-decoration: underline;
+}
+
+p.right-paragraph {
+  text-decoration: underline;
+}
+
+p:first-child {
+  font-size: 67px;
+  -webkit-text-stroke-width: medium;
+}
+
+p:nth-child(2) {
+  font-size: 67px;
+  -webkit-text-stroke-width: medium;
+}
+
+p:nth-child(4) {
+  font-size: 47px;
+  text-align: left;
+  margin-left: 400px;
+}
+
+p:nth-child(5) {
+  font-size: 47px;
+  text-align: left;
+  margin-left: 70px;
+}
+
+p:nth-child(6) {
+  font-size: 27px;
+  text-align: left;
+  margin-left: 130px;
+}
+
+*/
+
+#author {
+  font-style: italic;
+  font-size: 17px;
+}
+
+#copyright {
+  font-size: 13px;
+  text-align: center;
+}
+
+.related-author {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: none;
+}
+
+a:any-link {
+  text-decoration: none;
+  word-spacing: 3px;
+}
+
+a:link {
+  color: rgb(128, 188, 140);
+}
+
+a:visited {
+  color: rgb(29, 62, 39);
+}
+
+a:hover {
+  color: rgb(77, 156, 105);
+  font-weight: bold;
+}
+
+a:active {
+  background-color: rgb(62, 153, 74);
+  font-style: italic;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+  }
+
+  nav {
+    font-size: 20px;
+    word-spacing: 10px;
+  }
+
+  .try {
+    width: 77%;
+    float: none;
+    text-align: center;
+    margin-left: 56px;
+  }
+  /*
+  .container,
+  .container-two {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .paragraph-container,
+  .paragraph-container-two,
+  .paragraph-container-three,
+  .paragraph-container-four,
+  .para-cont {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .left-paragraph,
+  .right-paragraph,
+  .left-para,
+  .right-para,
+  .l-paragraph,
+  .r-paragraph,
+  .l-para,
+  .r-para,
+  .l-par,
+  .r-par {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 20px;
+  }
+
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 30px;
+    line-height: 0.6;
+    margin-bottom: 20px;
+  }
+*/
+  #author {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 10px;
+  }
+
+  .related-author {
+    font-size: 12px;
+  }
+}
